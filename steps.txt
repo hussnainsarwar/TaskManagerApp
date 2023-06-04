@@ -1,0 +1,31 @@
+in crud task api
+
+npm init -y
+
+npm i express --save
+
+npm i mongoose --save
+
+create app.js and perform some task like connecting to express with( node app.js)
+
+create database folder and mongoose then use mongoose in app.js 
+
+npm i -g nodemon --save-dev
+
+
+
+in developing frontend
+cd to frontend folder
+npm i -g @angular/cli
+ng new crudTaskFE --directory ./   #here crudtask is name and directory is used to create same name as given
+
+for bootstrap
+npm i bootstrap
+ in styles import [    "node_modules/bootstrap/dist/css/bootstrap.min.css"  ]
+
+
+for using Api 
+create two services as 
+ng g service task
+ng g service apiConfig
+goto appmodule.ts and import [ import{HttpClientModule}from '@angular/common/http' ] and also import it in imports in that folder 
